@@ -11,7 +11,7 @@ main()
 {
  int i,b;
  char chr[5];
- printf("Enter the pin number of your ATM\n");
+ printf("Enter pin number of your ATM\n");
  for(i=0;i<4;i++)
  {
     chr[i]=getch();
@@ -21,15 +21,15 @@ main()
  b=strcmp("abcd",chr);
  if(b==0)
  {
-    printf("Checking pin......\n");
+    printf("Checking pin....\n");
     Sleep(3000);
-    printf("Congo!! your pin is correct\n");
+    printf("Congo!! your pin is- correct\n");
  }
  else
  {
     printf("Checking the pin......\n");
     Sleep(3000);
-    printf("oh oh...you have entered wrong pin");
+    printf("oh ...you have entered wrong pin");
  }
  return 0;
  }
